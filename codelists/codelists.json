@@ -1,5 +1,23 @@
 {
   "files": {
+    "nhs-drug-refsets-c19astdrug_cod.csv": {
+      "id": "nhs-drug-refsets/c19astdrug_cod/20260630",
+      "url": "https://www.opencodelists.org/codelist/nhs-drug-refsets/c19astdrug_cod/20260630/",
+      "downloaded_at": "2026-09-21 12:23:09.192091+00:00Z",
+      "sha": "a43fb016b98992b68500d0ab20d7385715c7fc3b"
+    },
+    "nhs-drug-refsets-asttrtatrisk1_cod.csv": {
+      "id": "nhs-drug-refsets/asttrtatrisk1_cod/20260630",
+      "url": "https://www.opencodelists.org/codelist/nhs-drug-refsets/asttrtatrisk1_cod/20260630/",
+      "downloaded_at": "2026-09-21 12:23:08.263614+00:00Z",
+      "sha": "fff4e0a7581c6396185317beda12886c5fc505c9"
+    },
+    "nhsd-primary-care-domain-refsets-ast_cod.csv": {
+      "id": "nhsd-primary-care-domain-refsets/ast_cod/20260630",
+      "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/ast_cod/20260630/",
+      "downloaded_at": "2026-09-21 12:23:07.502675+00:00Z",
+      "sha": "40b9e08f0468a0cb15af222d626da906d029911f"
+    },
     "nhsd-primary-care-domain-refsets-depr_cod.csv": {
       "id": "nhsd-primary-care-domain-refsets/depr_cod/20241205",
       "url": "https://www.opencodelists.org/codelist/nhsd-primary-care-domain-refsets/depr_cod/20241205/",
