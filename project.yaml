@@ -15,3 +15,11 @@ actions:
     outputs:
       moderately_sensitive:
         histogram: output/histogram_age.png
+  
+  generate_dataset_ast:
+    run: >
+      ehrql:v1 generate-dataset analysis/dataset_definition_ast.py
+      --output output/dataset_ast.csv
+    outputs:
+      highly_sensitive:
+        dataset: output/dataset_ast.csv
