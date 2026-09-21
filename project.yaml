@@ -23,3 +23,12 @@ actions:
     outputs:
       highly_sensitive:
         dataset: output/dataset_ast.csv
+
+  generate_measures_ast:
+  run: >
+    ehrql:v1 generate-measures analysis/measures_definition_ast.py
+    --output output/measures_ast.csv
+  outputs:
+    moderately_sensitive:
+      measure: output/measures_ast.csv
+
