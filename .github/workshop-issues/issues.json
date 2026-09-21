@@ -1,0 +1,36 @@
+{
+  "issues": [
+    {
+      "title": "Task 1a: Create a dataset definition for asthma",
+      "file": "01-dataset-definition-asthma.md"
+    },
+    {
+      "title": "Task 1b: Create a dataset definition using the diabetes QOF rules",
+      "file": "02-dataset-definition-diabetes.md"
+    },
+    {
+      "title": "Task 2a: Calculate monthly prevalence of asthma",
+      "file": "03-measures-asthma.md"
+    },
+    {
+      "title": "Task 2b: Calculate monthly prevalence of the diabetes register",
+      "file": "04-measures-diabetes.md"
+    },
+    {
+      "title": "Task 3: Add ethnicity",
+      "file": "05-add-ethnicity.md"
+    },
+    {
+      "title": "Task 4: Add IMD",
+      "file": "06-add-imd.md"
+    },
+    {
+      "title": "Task 5: Visualise your results",
+      "file": "07-visualise.md"
+    },
+    {
+      "title": "Task 6: Write assurance tests for your dataset definition",
+      "file": "08-assure.md"
+    }
+  ]
+}

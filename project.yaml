@@ -1,0 +1,17 @@
+version: '5.0'
+
+actions:
+  generate_dataset:
+    run: >
+      ehrql:v1 generate-dataset solutions/dataset_definition_dep.py
+      --output output/depression_dataset.csv
+    outputs:
+      highly_sensitive:
+        dataset: output/depression_dataset.csv
+
+  create_histogram:
+    run: r:v3 analysis/create_histogram.R
+    needs: [generate_dataset]
+    outputs:
+      moderately_sensitive:
+        histogram: output/histogram_age.png
